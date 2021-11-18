@@ -30,7 +30,7 @@ h5 {
 .btn-primary {
     background-color: #f08582;
     border-color: #f08582;
-    padding: 5px 30px;
+    padding: 3px 5px;
 }
 
 .btn-primary:hover,
@@ -39,7 +39,9 @@ h5 {
     background-color: #f39d9b !important;
     border-color: #f39d9b !important;
 }
-
+.btn{
+    font-size: .65rem !important;
+}
 .title-underline{
     border: 0;
     height: 1px;
@@ -106,6 +108,8 @@ h5 {
 
 .fragment-three .carousel {
     max-width: 800px;
+    /* min-width: 800px; */
+  
 }
 
 .fragment-three .carousel-container {
@@ -116,7 +120,15 @@ h5 {
 }
 
 .fragment-three .carousel-caption {
-    color: #999
+    color: rgb(241, 207, 207)
+}
+
+.Weather {
+    color: rgb(14, 4, 75) !important;
+}
+
+.Belly {
+    color: rgb(238, 22, 223) !important;
 }
 
 .fragment-three .custom-indicator {
@@ -194,4 +206,8 @@ h5 {
 .fragment-six .copyright {
     margin: 10px 0;
     font-size: 0.8rem;
+}
+
+.tech a{
+    color: rgba(0, 0, 0, 0.5);
 }
